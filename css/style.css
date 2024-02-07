@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(235, 227, 227) ;
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+nav{
+    background-color: white;
+    width: 98%;
+    display:flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 50px;
+    height: 40px;
+}
+/*#check{
+    display: none;
+}*/
+
+img.perfil{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+.informacion{
+    display: grid;
+    width: 90%;
+    grid-template: 100%/repeat(4,25%);
+    gap: 15px;
+    padding: 30px;
+}
+.cuadritos{
+    border: 1px solid black;
+    border-radius: 20px;
+    filter: drop-shadow(3px 2px);
+    background-color: white;
+    padding: 10px;
+}
+.porcentajes{
+    width: 80px;
+    border-radius: 100px;
+}
+.report{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
